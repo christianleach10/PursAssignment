@@ -1,4 +1,4 @@
-# BEASTRO by Marshawn Lynch - Hours of Operation App
+# BEASTRO by Marshawn Lynch
 
 ## Assumptions
 - The app assumes that the JSON data provided is always in the correct format.
@@ -8,7 +8,6 @@
 ## Design Decisions
 - Used SwiftUI for a modern, declarative approach to UI development.
 - Employed Combine framework for data fetching to ensure real-time updates.
-- Followed MVVM pattern for better separation of concerns and maintainability.
 - Added basic animations for expanding and collapsing the hours list for a better user experience.
 - Grouped and formatted business hours per day and combined all time segments into one day's block as required.
 
